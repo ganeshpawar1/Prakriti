@@ -222,7 +222,7 @@ section.prakriti23
     {
         width: 100%;
         object-fit: fill;
-        height: 240px;
+        height: 81vh;
     }
     .flex-box
     {
@@ -365,6 +365,10 @@ section.prakriti23
     .image
     {
         margin-left: 10%;
+    }
+    .parallax
+    {
+        height: 91vh;
     }
 }
 @media only screen and (max-width:321px)

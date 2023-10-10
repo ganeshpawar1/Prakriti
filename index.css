@@ -354,6 +354,12 @@ section.prakriti23
     {
         margin-bottom: 0% !important;
     }
+    .parallax img
+    {
+        height: 100%;
+        object-fit: fill;
+        aspect-ratio: 4/16;
+    }
 }
 
 @media only screen and (max-width:380px)
@@ -369,6 +375,12 @@ section.prakriti23
     .parallax
     {
         height: 91vh;
+    }
+    .parallax img
+    {
+        height: 100%;
+        object-fit: fill;
+        aspect-ratio: 4/16;
     }
 }
 @media only screen and (max-width:321px)
@@ -392,5 +404,11 @@ section.prakriti23
     .content-1
     {
         height: 680px;
+    }
+    .parallax img
+    {
+        height: 100%;
+        object-fit: fill;
+        aspect-ratio: 4/16;
     }
 }
